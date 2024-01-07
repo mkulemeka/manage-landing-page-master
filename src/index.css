@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.about__section, .simplify__container, .footer__content{
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.action_button button {
+  box-shadow: 1px 8px 9px hsla(12, 88%, 59%, 0.25);
+}
+
+.point-number {
+  width: 4rem;
+}
